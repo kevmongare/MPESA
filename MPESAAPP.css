@@ -6,19 +6,20 @@ body{
     margin: 0px;
     padding: 0px;
     background-color:rgba(128, 128, 128, 0.123) ;
+    display: flexbox;
     
 }
 .MpesaMenu{
     display: flexbox;
     background-color: #4CBB17;
     color: white;
-    text-align: start;
+    align-items: center;
+    height: 50px;
     
     
 }
 label{
-    background-color: #1b4f03;
-    margin-top: 50%;
+    
     
     font-size: large;
 }
@@ -54,19 +55,33 @@ a{
     text-align: ;
 }
 .LIPANAMPESA{
-    align-content: center;
-    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
     justify-content: center;
     display: grid;
-    
+    max-height: 500px;
+    max-width: 320px;
+    margin-inline: auto;/*The AUTO Helps center Items*/
+    border: 1px solid#03444f;
+    border-radius: 5px;
+}
+.LIPANAMPESA:hover{
+    background-color: #03444f;
+    color: white;
     
 }
 h2 {
     text-align: center;
 }
 button{
+    padding: 10px;
     margin-top: 20px;
     background-color: #4CBB17;
     color: white;
     border-radius: 5px;
+}
+button:hover{
+    background-color: chocolate;
+    color: #ffffff;
+    
 }
